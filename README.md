@@ -17,6 +17,13 @@ Implementação de uma interface de login em Java, utilizando:
 - **Java Swing** para a interface gráfica.
 - **Classes de autenticação** para validar login e senha.
 
+## Arquitetura do Projeto
+
+Este projeto foi desenvolvido seguindo o modelo **MVC (Model-View-Controller)**, que separa as responsabilidades da aplicação nas seguintes camadas:
+- **Model (Modelo)**: Contém a lógica de autenticação e manipulação de dados.
+- **View (Visão)**: Responsável pela interface gráfica com o usuário, utilizando **Java Swing**.
+- **Controller (Controle)**: Coordena a interação entre a interface gráfica (View) e a lógica de negócios (Model).
+
 ## Estrutura de Branches
 
 1. **Main**: Branch principal do projeto.
