@@ -41,7 +41,17 @@ Este projeto utilizou Git como ferramenta de controle de versão. Abaixo está o
 - **Decisão de Resolução**: A resolução foi feita priorizando as alterações da branch `design/gui`.
 - **Resultado Final**: Após a resolução do conflito, o projeto foi testado para garantir que todas as funcionalidades estavam integradas corretamente.
 
-### 4. Histórico de Commits
+### 4. Resolução de Problema de Checkout e Uso do `git stash`
+Durante o desenvolvimento, encontrei um problema ao tentar alternar entre branches no Git. O Git acusou que minhas alterações não estavam salvas, o que impedia a troca de branch. Para resolver isso, utilizei o comando `git stash` para salvar temporariamente as alterações não comitadas e permitir a troca de branch.
+
+**Passos Realizados**:
+1. **Problema no Checkout**: O Git pediu para salvar ou descartar as alterações não salvas.
+2. **Uso do `git stash`**: Usei `git stash` para armazenar temporariamente as alterações.
+3. **Troca de Branch**: Realizei a troca de branch com sucesso após o `stash`.
+4. **Recuperação de Alterações**: Usei `git stash pop` para recuperar as alterações após a troca de branch.
+5. **Commit das Alterações**: Com as alterações recuperadas, realizei o commit e continuei o desenvolvimento normalmente.
+
+### 5. Histórico de Commits
 - Abaixo está uma captura de tela do histórico de commits (`git log`), mostrando as alterações realizadas no projeto, cada commit contendo uma descrição clara sobre a modificação:
 
    ![Git Log](./img/img-1.png)
@@ -70,6 +80,22 @@ Aqui está a captura da tela de login funcionando no ambiente Java Swing:
 Aqui está a nova captura de tela adicionada:
 ![Nova Imagem](./img/img-6.png)
 
+### Nova Imagem Adicionada: img-7.png
+Aqui está a nova captura de tela adicionada para ilustrar a interface gráfica com as correções e melhorias:
+![Nova Imagem](./img/img-7.png)
+
+### Tela de Login com Login ou Senha Inválidos: img-8.png
+Aqui está a captura de tela mostrando a tela de login com a mensagem de erro quando o usuário digita um login ou senha inválidos:
+![Tela de Login - Inválido](./img/img-8.png)
+
+### Tela de Login com Sucesso: img-9.png
+Aqui está a captura de tela mostrando a tela de login com a mensagem de "Logado com Sucesso" após a autenticação correta:
+![Tela de Login - Sucesso](./img/img-9.png)
+
+### Tela Principal: img-10.png
+Aqui está a captura de tela mostrando a tela principal do sistema após o login bem-sucedido:
+![Tela Principal](./img/img-10.png)
+
 ## Resumo do que foi Realizado
 
 Este projeto prático demonstrou o uso do Git para Gerenciamento de Configuração e Controle de Versão (GCCV) em um ambiente de desenvolvimento de software. Foram criadas branches para o desenvolvimento paralelo de funcionalidades, seguidas de um merge com resolução de conflitos. Cada alteração foi documentada em commits descritivos, garantindo rastreabilidade e organização.
@@ -81,4 +107,4 @@ Clone o repositório e compile o código com um ambiente Java:
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositório>
+   git clone https://github.com/Edinei01/EngSoft.git
