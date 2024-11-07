@@ -55,6 +55,10 @@ Aqui está o commit e as alterações realizadas para a criação da tela de log
 Aqui está a captura da tela de login funcionando no ambiente Java Swing:
 ![Tela de Login](./img/img-5.png)
 
+### Nova Imagem Adicionada: img-6.png
+Aqui está a nova captura de tela adicionada:
+![Nova Imagem](./img/img-6.png)
+
 ## Como Executar
 Clone o repositório e compile o código com um ambiente Java:
 
