@@ -17,19 +17,29 @@ Implementação de uma interface de login em Java, utilizando:
 ## Passo a Passo
 
 ### 1. Criação de Branches
-- Foram criadas branches `design/gui` e `classes` para desenvolvimento paralelo.
-- Cada branch possui commits documentando as alterações realizadas.
+- Foram criadas as branches `design/gui` e `classes` para desenvolvimento paralelo.
+- Cada branch possui commits que documentam as alterações realizadas.
 
 ### 2. Desenvolvimento e Commits
 - As modificações foram documentadas com mensagens de commit descritivas.
-- Cada commit explica o que foi alterado e por que essa alteração é relevante.
+- Cada commit explica o que foi alterado e por que essa alteração é relevante para o projeto.
 
 ### 3. Merge e Resolução de Conflitos
 - Um merge foi realizado entre as branches para integrar as funcionalidades.
-- Qualquer conflito foi resolvido e documentado.
+- Qualquer conflito que surgiu foi resolvido e documentado.
 
 ### 4. Prints e Histórico de Commits
-- Prints do uso do Git e histórico de commits estão incluídos no repositório.
+- Prints do uso do Git e o histórico de commits estão incluídos no repositório.
+
+## Capturas de Tela do Git
+
+### Git Log
+Aqui está um exemplo do comando `git log`, mostrando o histórico de commits realizados no projeto:
+![Git Log](./img/img-1.png)
 
 ## Como Executar
-Clone o repositório e compile o código com um ambiente Java.
+Clone o repositório e compile o código com um ambiente Java:
+
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositório>
