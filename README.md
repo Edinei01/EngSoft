@@ -47,6 +47,13 @@ Exemplo dos comandos usados para criar e alternar entre branches:
 
 ![Comandos Git](./img/img-3.png)
 
+### Commit e Criação da Tela de Login
+Aqui está o commit e as alterações realizadas para a criação da tela de login:
+![Comandos Git](./img/img-4.png)
+
+### Tela de Login em Execução
+Aqui está a captura da tela de login funcionando no ambiente Java Swing:
+![Tela de Login](./img/img-5.png)
 
 ## Como Executar
 Clone o repositório e compile o código com um ambiente Java:
