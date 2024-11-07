@@ -41,6 +41,13 @@ Aqui está um exemplo do comando `git log`, mostrando o histórico de commits re
 Esta captura de tela mostra o commit com a mensagem `"atualização 1 da documentação"`:
 ![Commit Atualização](./img/img-2.png)
 
+### Criação e Verificação das Branches
+
+Exemplo dos comandos usados para criar e alternar entre branches:
+
+![Comandos Git](./img/img-3.png)
+
+
 ## Como Executar
 Clone o repositório e compile o código com um ambiente Java:
 
