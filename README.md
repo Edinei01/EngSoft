@@ -37,6 +37,10 @@ Implementação de uma interface de login em Java, utilizando:
 Aqui está um exemplo do comando `git log`, mostrando o histórico de commits realizados no projeto:
 ![Git Log](./img/img-1.png)
 
+### Commit: "atualização 1 da documentação"
+Esta captura de tela mostra o commit com a mensagem `"atualização 1 da documentação"`:
+![Commit Atualização](./img/img-2.png)
+
 ## Como Executar
 Clone o repositório e compile o código com um ambiente Java:
 
