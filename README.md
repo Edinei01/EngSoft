@@ -1,18 +1,35 @@
-## Getting Started
+# Projeto: Janela de Login em Java Swing
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma atividade prática da disciplina **Engenharia de Software** sobre Gerenciamento de Configuração e Controle de Versão (GCCV), demonstrando o uso de Git para gerenciamento e controle de versão.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+Implementação de uma interface de login em Java, utilizando:
+- **Java Swing** para a interface gráfica.
+- **Classes de autenticação** para validar login e senha.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Estrutura de Branches
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Main**: Branch principal do projeto.
+2. **Design/GUI**: Para o desenvolvimento da interface gráfica.
+3. **Classes**: Para a lógica de autenticação.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Passo a Passo
 
-## Dependency Management
+### 1. Criação de Branches
+- Foram criadas branches `design/gui` e `classes` para desenvolvimento paralelo.
+- Cada branch possui commits documentando as alterações realizadas.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 2. Desenvolvimento e Commits
+- As modificações foram documentadas com mensagens de commit descritivas.
+- Cada commit explica o que foi alterado e por que essa alteração é relevante.
+
+### 3. Merge e Resolução de Conflitos
+- Um merge foi realizado entre as branches para integrar as funcionalidades.
+- Qualquer conflito foi resolvido e documentado.
+
+### 4. Prints e Histórico de Commits
+- Prints do uso do Git e histórico de commits estão incluídos no repositório.
+
+## Como Executar
+Clone o repositório e compile o código com um ambiente Java.
